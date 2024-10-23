@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    .container {
+        height: 100vh;
+        background-color: hsl(212, 45%, 89%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .card {
+            background-color: white;
+            margin-top: 2rem;
+            padding: 0.8rem 0.8rem 1.7rem 0.8rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+            img {
+                width: 14rem;
+                border-radius: 8px;
+            }
+
+            h1, span {
+                width: 13rem;
+                margin-inline: auto;
+                text-align: center;
+                font-family: "Outfit", sans-serif;
+            }
+
+            h1 {     
+                font-size: 1.1rem;
+            }
+
+            span {
+                display: block;
+                font-size: 0.8rem;
+                color: hsl(216, 15%, 48%);
+            }
+        }
+    }
+}
